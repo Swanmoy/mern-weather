@@ -37,7 +37,7 @@ export default function Weather() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .get("https://swanmoy-weather-app1.herokuapp.com//weather", {
+      .get("https://swanmoy-weather-app1.herokuapp.com/weather", {
         params: { city: city },
       })
       .then((res) => {
