@@ -6,7 +6,7 @@ export default function AboutUs() {
     <>
       <div class='about-container'>
         <div class='about-container-left'>
-          <img src={me} id='aboutimg' />
+          <img alt='img' src={me} id='aboutimg' />
         </div>
         <div class='about-container-right'>
           <p>Welcome to the Weather app</p>

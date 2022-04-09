@@ -78,7 +78,7 @@ export default function Weather() {
           <p id='desc'>
             {desc}
             {"  "}
-            <img src={icon_url} />
+            <img alt='icon' src={icon_url} />
           </p>
         </>
       );
