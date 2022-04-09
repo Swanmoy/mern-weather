@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital@1&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Piazzolla", serif;
+}
+
+.main-header {
+    height: 80vh;
+    width: 95vw;
+    display: grid;
+    column-gap: 5vw;
+    margin-top: 10vh;
+    grid-template-columns: auto auto;
+}
+
+.main-header-left {
+    display: inline;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    padding-left: 5vw;
+}
+
+.main-header-left p {
+    font-size: 1.5vw;
+    text-transform: capitalize;
+}
+
+.main-header-left h1 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 3vw;
+    text-transform: capitalize;
+}
+
+.main-header-left button {
+    border: none;
+    padding: 1vh 0.6vw;
+    font-size: 1.5vw;
+    border-radius: 20vh;
+    text-transform: capitalize;
+    box-shadow: 0 1vh 0.9vw -0.6vh #000;
+    outline: none;
+}
+
+.main-header-left button:hover {
+    box-shadow: 0 1vh 0.9vw -0.6vh #0097e6;
+}
+
+.main-header-left span {
+    color: #0097e6;
+}
+
+.main-header-right {
+    margin-top: 10vh;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 1vw;
+    text-transform: capitalize;
+}
+
+.main-container {
+    height: 80vh;
+    width: 100vw;
+}
+
+.weather-info {
+    width: 25vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    background-image: url("./images/weather2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5vw;
+    color: black;
+    padding-top: 6vh;
+}
+
+.search {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search input[type="text"] {
+    margin-top: 7vh;
+    height: 8vh;
+    font-size: 1.5vw;
+    width: 40vw;
+    margin-left: 15vw;
+    text-align: center;
+    border-radius: 20vw;
+}
+
+.search input[type="submit"] {
+    margin-top: 7vh;
+    height: 8vh;
+    font-size: 1.5vw;
+    width: 10vw;
+    text-align: center;
+    border-radius: 20vw;
+    position: relative;
+    left: -10vw;
+    background-color: #0097e6;
+}
+
+.search button:hover {
+    background-color: #c8f1ef;
+}
+
+.weather-info p {
+    height: 7vh;
+}
+
+#weekday {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#date {
+    text-align: center;
+    font-size: 2.2vw;
+    margin-bottom: 0;
+}
+
+#place {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#temp {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#desc {
+    font-size: 2vw;
+    text-align: center;
+}
+
+#warning {
+    position: fixed;
+    font-size: 1.5vw;
+    left: 40vw;
+    color: red;
+    text-transform: capitalize;
+}
+
+.about-container {
+    height: 80vh;
+    width: 95vw;
+    display: grid;
+    column-gap: 1vw;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    grid-template-columns: auto auto;
+}
+
+.about-container-left {
+    width: 40vw;
+    display: inline;
+}
+
+.about-container-right {
+    display: inline;
+    width: 40vw;
+}
+
+.about-container-right p {
+    font-size: 1.5vw;
+    text-transform: capitalize;
+}
+
+.about-container-right h1 {
+    font-size: 2vw;
+    text-transform: capitalize;
+    line-height: 7vh;
+}
+
+#aboutimg {
+    width: 40vw;
+    height: 55vh;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+}
